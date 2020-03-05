@@ -1,0 +1,114 @@
+* {
+	margin:0;
+	padding:0;
+}
+h1 {
+	display:none;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+.marginTop{
+	margin-top:200px;
+}
+/********** header 시작 **********/
+.headerLogo{
+	width:500px;
+	margin:50px auto;
+}
+.headerLogo img{
+	width:500px;
+}
+
+
+/*********** header 끝 ***********/
+/*********** main 시작 ***********/
+.mainWrap{
+	width:800px;
+	margin:0 auto;
+}
+.userInputForm{
+	width:500px;
+	margin:0 auto;
+}
+.inputStyle input{
+	padding:5px 0 5px 5px;
+	border-width: 0px;
+	width: 450px;
+}
+.inputStyle{
+	padding: 10px;
+	border:1px solid #ccc;
+	margin:10px;
+}
+.inputStyle select{
+	margin:0 auto;
+	padding:5px 0 4px 0;
+	border-width: 0px;
+	width: 450px;
+}
+.inputStyle2 select{
+	margin:0 auto;
+	padding:5px 0 4px 0;
+	border-width: 0px;
+	width: 120px;
+}
+.inputStyle2 input{
+	padding:5px 0 3px 5px;
+	border-width: 0px;
+	width: 120px;
+}
+.inputStyle2{
+	padding: 10px;
+	border:1px solid #ccc;
+	margin:10px;
+}
+.inputStyleWrap{
+	margin: 5px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.btnStyle{
+	font-size:20px;
+	width: 480px;
+	height: 50px;
+	padding:5px 0 5px 5px;
+	border-width: 0px;
+	margin:10px;
+	color: white;
+	background-color:#26BEFB;
+}
+.RDMemberJoin{
+	width:500px;
+	margin:0 auto;
+	text-align: right;
+}
+.RDMemberJoin span{
+	font-size: 16px;
+	color: #888;
+}
+.RDMemberJoin span:last-child{
+	font-size: 18px;
+	color: white;
+	margin-right: 10px;
+	background-color:#26BEFB;
+	padding: 2px;
+}
+.userInputForm label{
+	margin:0;
+	margin-left: 10px;
+}
+
+/*********** main 끝 ***********/
+/*********** footer 시작 ***********/
+footer section{
+	border-top:1px solid #ccc;
+	width: 470px;
+	margin: 70px auto 0 auto;
+	font-size: 14px;
+	color: #888;
+	text-align: center;
+}
+
+/*********** footer 끝 ***********/
